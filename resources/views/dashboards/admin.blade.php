@@ -11,7 +11,7 @@ hi
                 </div>
                 <div class="options">
                     <div class="pull-right">
-                        <a class="btn btn-success" href="#">Admin</a> 
+                        <a class="btn btn-success" href="{{route('employees.index')}}">Admin</a> 
                         <a class="btn btn-success" href="{{route('products.index')}}">Products</a>
                         <a class="btn btn-success" href="{{route('employees.index')}}">Employees</a>
                         <a class="btn btn-success" href="logout">Logout</a>

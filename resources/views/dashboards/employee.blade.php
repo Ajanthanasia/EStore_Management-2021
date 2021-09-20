@@ -10,7 +10,7 @@
                 </div>
                 <div class="options">
                     <div class="pull-right">
-                        <a class="btn btn-success" href="#">Employee name : {{Auth::user()->name}}</a> 
+                        <a class="btn btn-success" href="{{route('emp.index')}}">Employee name : {{Auth::user()->name}}</a> 
                         <a class="btn btn-success" href="{{url('resetpw')}}">Reset Password</a>
                         <a class="btn btn-success" href="{{url('emporders')}}">My Orders</a>
                         <a class="btn btn-success" href="/logout">Logout</a>

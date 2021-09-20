@@ -78,7 +78,7 @@ class EmpUserController extends Controller
      */
     public function index()
     {
-        //
+        return view('users.empname');
     }
 
     /**

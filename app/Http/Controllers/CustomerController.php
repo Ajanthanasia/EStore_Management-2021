@@ -140,9 +140,9 @@ class CustomerController extends Controller
      * @param  \App\Models\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function show(User $user)
+    public function show()
     {
-        //
+        return view('users.custname');
     }
 
     /**

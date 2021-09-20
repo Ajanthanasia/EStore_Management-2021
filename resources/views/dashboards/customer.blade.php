@@ -11,7 +11,7 @@
                 <div class="options">
                     <div class="pull-right">
                         <h6>Welcome {{Auth::user()->name}} , -------</h6>
-                        <a class="btn btn-success" href="#">Customer</a> 
+                        <a class="btn btn-success" href="{{url('cusname')}}">Customer</a> 
                         <a class="btn btn-success" href="{{url('placeorder')}}">Place Orders</a>
                         <a class="btn btn-success" href="{{url('myorder')}}">My Orders</a>
                         <a class="btn btn-success" href="/logout">Logout</a>

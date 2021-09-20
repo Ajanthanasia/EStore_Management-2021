@@ -34,11 +34,13 @@ Route::resource('admin',AdminController::class);
 
 //---------Employee additions
 Route::resource('employees',EmployeeController::class);
+Route::resource('emp',EmpUserController::class);
 
 Route::resource('products',ProductController::class);
 
 //-----------Customers
 Route::resource('customers',CustomerController::class);
+Route::get('/cusname',[CustomerController::class,'show']);
 Route::get('/placeorder',[CustomerController::class,'placeorder']);
 Route::get('/order/{user}/{product}',[CustomerController::class,'order']);
 Route::post('/storeorder',[CustomerController::class,'storeorder']);
