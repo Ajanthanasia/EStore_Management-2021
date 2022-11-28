@@ -30,13 +30,13 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Name:</strong>
-                <input type="text" name="name" value="name1" class="form-control" placeholder="Name">
+                <input type="text" name="name" class="form-control" placeholder="Enter a Name">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Email:</strong>
-                <input type="text" name="email" value="email1" class="form-control" placeholder="Email">
+                <input type="text" name="email" class="form-control" placeholder="Enter a Email">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
@@ -51,13 +51,13 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Address:</strong>
-                <input type="text" name="address" value="Sri lanka" class="form-control" placeholder="Address">
+                <input type="text" name="address" class="form-control" placeholder="Enter the Address">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Mobile:</strong>
-                <input type="number" name="mobile" value="0760007000" class="form-control" placeholder="Mobile Number">
+                <input type="number" name="mobile" class="form-control" placeholder="Enter your Mobile Number">
             </div>
         </div>
 
@@ -66,7 +66,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong>Password:</strong>
-                <input type="password" name="password" value="Password" class="form-control" placeholder="Password">
+                <input type="password" name="password" class="form-control" placeholder="Enter your Password">
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">

@@ -31,8 +31,8 @@ class LoginController extends Controller
     public function checklogin(Request $request)
     {
         $this->validate($request, [
-            'email' => 'required|email',
-            'password' => 'required|alphaNum|min:5'
+            'email' => 'required',
+            'password' => 'required'
         ]);
         $user_data = array(
             'email' => $request->get('email'),

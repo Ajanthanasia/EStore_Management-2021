@@ -1,9 +1,6 @@
 @extends('login.layout')
 @section('login')
 
-hi
-{{Auth::user()->name}}
-{{Auth::user()->password}}
 <div class="row">
             <div class="col-lg-12 margin-tb">
                 <div class="dash">

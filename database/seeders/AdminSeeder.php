@@ -19,15 +19,13 @@ class AdminSeeder extends Seeder
         //
         User::create([
             'name' => 'Ajha',
-            'email' => 'aj@gmail.com',
+            'email' => 'ajan@gmail.com',
             'gender' => 'm',
             'address' => 'Matale',
             'mobile' => 0760007000,
             'role' => 'admin',
             'password' => Hash::make('password'),
             'remember_token' => Str::random(10),
-        ]);
-
-        
+        ]); 
     }
 }

@@ -49,7 +49,7 @@ class EmpUserController extends Controller
         if(Hash::check($data['currentpassword'],$user->password))
         {
             $user->password=Hash::make($data['password']);
-            $user->save();
+            $user->update();
             return back()->with('success','Employee Password updated successfully!');
         }
         else

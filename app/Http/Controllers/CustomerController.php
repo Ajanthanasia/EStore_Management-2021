@@ -43,7 +43,6 @@ class CustomerController extends Controller
     public function store(Request $request)
     {
         $this->validate($request,[
-            
             'email' => 'required',
             'password' => 'required|alphaNum|min:5'
         ]);

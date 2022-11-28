@@ -25,7 +25,7 @@ Route::get('/', function () {
 */
 //---------Login to the User
 Route::get('/',[LoginController::class,'index']);
-Route::resource('login',LoginController::class);
+//Route::resource('login',LoginController::class);
 Route::post('/check',[LoginController::class,'checklogin']);
 Route::get('/logout',[LoginController::class,'logout']);
 
