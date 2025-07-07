@@ -18,8 +18,8 @@ class AdminSeeder extends Seeder
     {
         //
         User::create([
-            'name' => 'Ajha',
-            'email' => 'ajan@gmail.com',
+            'name' => 'Admin',
+            'email' => 'admin@wolf.com',
             'gender' => 'm',
             'address' => 'Matale',
             'mobile' => 0760007000,
